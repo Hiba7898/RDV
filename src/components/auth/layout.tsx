@@ -44,13 +44,15 @@ export function Layout({ children }: LayoutProps): React.JSX.Element {
         <Stack spacing={3}>
           <Stack spacing={1}>
             <Typography color="inherit" sx={{ fontSize: '24px', lineHeight: '32px', textAlign: 'center' }} variant="h1">
-              Welcome to{' '}
-              <Box component="span" sx={{ color: '#15b79e' }}>
-                Devias Kit
+              Welcome to your{' '}
+              <Box component="span" sx={{ color: '#7269ef' }}>
+                App 👋
               </Box>
             </Typography>
             <Typography align="center" variant="subtitle1">
-              A professional template that comes with ready-to-use MUI components.
+            Welcome to our online scheduling platform! Book your appointments easily, anytime, anywhere.
+            Just choose a time that suits you, and we ll handle the rest. Start by selecting your preferred service,
+            and let us help you manage your time more efficiently!
             </Typography>
           </Stack>
           <Box sx={{ display: 'flex', justifyContent: 'center' }}>
