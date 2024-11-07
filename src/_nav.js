@@ -154,12 +154,7 @@ const _nav = [
       },
     ],
   },
-  {
-    component: CNavItem,
-    name: 'Calendar',
-    to: '/Calendrier',
-    icon: <CIcon icon={cilCalendar} customClassName="nav-icon" />,
-  },
+
   {
     component: CNavItem,
     name: 'Overview',
@@ -218,6 +213,12 @@ const _nav = [
     name: 'Charts',
     to: '/charts',
     icon: <CIcon icon={cilChartPie} customClassName="nav-icon" />,
+  },
+  {
+    component: CNavItem,
+    name: 'Calendrier',
+    to: '/calendrier',
+    icon: <CIcon icon={cilCalendar} customClassName="nav-icon" />,
   },
   {
     component: CNavGroup,
