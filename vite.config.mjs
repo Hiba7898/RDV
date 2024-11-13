@@ -32,6 +32,7 @@ export default defineConfig(() => {
         loader: {
           '.js': 'jsx',
         },
+        
       },
     },
     plugins: [react()],

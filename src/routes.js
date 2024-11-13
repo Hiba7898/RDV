@@ -1,8 +1,15 @@
 import React from 'react'
 
-const Dashboard = React.lazy(() => import('./views/dashboard/Dashboard'))
+// const Dashboard = React.lazy(() => import('./views/Models/dashboard/Dashboard'))
 const Colors = React.lazy(() => import('./views/theme/colors/Colors'))
 const Typography = React.lazy(() => import('./views/theme/typography/Typography'))
+// Models
+const Dashboard = React.lazy(() => import('./views/Models/dashboard/Dashboard'))
+const Appointments = React.lazy(() => import('./views/Models/appointments/Appointments'))
+const Clients = React.lazy(() => import('./views/Models/clients/Clients'))
+const Profile = React.lazy(() => import('./views/Models/profile/Profile'))
+const Settings = React.lazy(() => import('./views/Models/settings/Settings'))
+const Support = React.lazy(() => import('./views/Models/support/Support'))
 
 // base
 const Accordion = React.lazy(() => import('./views/base/accordion/Accordion'))
@@ -58,6 +65,13 @@ const Widgets = React.lazy(() => import('./views/widgets/Widgets'))
 const routes = [
   { path: '/', exact: true, name: 'Home' },
   { path: '/dashboard', name: 'Dashboard', element: Dashboard },
+  { path: '/appointments', name: 'Appointments', element: Appointments },
+  { path: '/calendrier', name: 'Calendrier', element: Calendrier },
+  { path: '/clients', name: 'Clients', element: Clients },
+  { path: '/profile', name: 'Profile', element: Profile },
+  { path: '/settings', name: 'Settings', element: Settings },
+  { path: '/support', name: 'Support', element: Support },
+
   { path: '/theme', name: 'Theme', element: Colors, exact: true },
   { path: '/theme/colors', name: 'Colors', element: Colors },
   { path: '/theme/typography', name: 'Typography', element: Typography },
@@ -82,7 +96,6 @@ const routes = [
   { path: '/buttons/dropdowns', name: 'Dropdowns', element: Dropdowns },
   { path: '/buttons/button-groups', name: 'Button Groups', element: ButtonGroups },
   { path: '/charts', name: 'Charts', element: Charts },
-  { path: '/calendrier', name: 'Calendrier', element: Calendrier },
   { path: '/forms', name: 'Forms', element: FormControl, exact: true },
   { path: '/forms/form-control', name: 'Form Control', element: FormControl },
   { path: '/forms/select', name: 'Select', element: Select },
