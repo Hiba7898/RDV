@@ -10,6 +10,7 @@ const Clients = React.lazy(() => import('./views/Models/clients/Clients'))
 const Profile = React.lazy(() => import('./views/Models/profile/Profile'))
 const Settings = React.lazy(() => import('./views/Models/settings/Settings'))
 const Support = React.lazy(() => import('./views/Models/support/Support'))
+const Calendrier = React.lazy(() => import('./views/Models/calendrier/Calendrier'))
 
 // base
 const Accordion = React.lazy(() => import('./views/base/accordion/Accordion'))
@@ -47,8 +48,6 @@ const Select = React.lazy(() => import('./views/forms/select/Select'))
 const Validation = React.lazy(() => import('./views/forms/validation/Validation'))
 
 const Charts = React.lazy(() => import('./views/charts/Charts'))
-const Calendrier = React.lazy(() => import('./views/calendrier/Calendrier'))
-
 // Icons
 const CoreUIIcons = React.lazy(() => import('./views/icons/coreui-icons/CoreUIIcons'))
 const Flags = React.lazy(() => import('./views/icons/flags/Flags'))
