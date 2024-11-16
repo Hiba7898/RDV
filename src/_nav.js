@@ -101,6 +101,67 @@ const _nav = [
 
 
 
+
+
+// Models / Customer 
+
+    // Appointments / CNavItem
+  {
+    component: CNavItem,
+    name: 'Appointments',
+    to: '/Customer/Appointments',
+    icon: <CIcon icon={cilAddressBook  } customClassName="nav-icon" />,
+    badge: {
+      color: 'info',
+      text: 'NEW',
+    },
+  },
+  {
+    component: CNavItem,
+    name: 'Dashboard',
+    to: '/Customer/Dashboard',
+    icon: <CIcon icon={cilAddressBook  } customClassName="nav-icon" />,
+    badge: {
+      color: 'info',
+      text: 'NEW',
+    },
+  },
+  {
+    component: CNavItem,
+    name: 'Profile',
+    to: '/Customer/Profile',
+    icon: <CIcon icon={cilAddressBook  } customClassName="nav-icon" />,
+    badge: {
+      color: 'info',
+      text: 'NEW',
+    },
+  },
+  {
+    component: CNavItem,
+    name: 'Settings',
+    to: '/Customer/Settings',
+    icon: <CIcon icon={cilAddressBook  } customClassName="nav-icon" />,
+    badge: {
+      color: 'info',
+      text: 'NEW',
+    },
+  },
+  {
+    component: CNavItem,
+    name: 'Support',
+    to: '/Customer/Support',
+    icon: <CIcon icon={cilAddressBook  } customClassName="nav-icon" />,
+    badge: {
+      color: 'info',
+      text: 'NEW',
+    },
+  },
+
+
+
+
+
+
   //   //Theme / CNavTitle
   // {
   //   component: CNavTitle,

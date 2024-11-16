@@ -3,14 +3,8 @@ import React from 'react'
 // const Dashboard = React.lazy(() => import('./views/Models/dashboard/Dashboard'))
 const Colors = React.lazy(() => import('./views/theme/colors/Colors'))
 const Typography = React.lazy(() => import('./views/theme/typography/Typography'))
-// Models
-const Dashboard = React.lazy(() => import('./views/Models/dashboard/Dashboard'))
-const Appointments = React.lazy(() => import('./views/Models/appointments/Appointments'))
-const Clients = React.lazy(() => import('./views/Models/clients/Clients'))
-const Profile = React.lazy(() => import('./views/Models/profile/Profile'))
-const Settings = React.lazy(() => import('./views/Models/settings/Settings'))
-const Support = React.lazy(() => import('./views/Models/support/Support'))
-const Calendrier = React.lazy(() => import('./views/Models/calendrier/Calendrier'))
+
+
 
 // base
 const Accordion = React.lazy(() => import('./views/base/accordion/Accordion'))
@@ -61,8 +55,81 @@ const Toasts = React.lazy(() => import('./views/notifications/toasts/Toasts'))
 
 const Widgets = React.lazy(() => import('./views/widgets/Widgets'))
 
+
+
+
+// Models
+const Dashboard = React.lazy(() => import('./views/Models/dashboard/Dashboard'))
+const Appointments = React.lazy(() => import('./views/Models/appointments/Appointments'))
+const Clients = React.lazy(() => import('./views/Models/clients/Clients'))
+const Profile = React.lazy(() => import('./views/Models/profile/Profile'))
+const Settings = React.lazy(() => import('./views/Models/settings/Settings'))
+const Support = React.lazy(() => import('./views/Models/support/Support'))
+const Calendrier = React.lazy(() => import('./views/Models/calendrier/Calendrier'))
+
+// Models / Admin
+const AdminAppAppointments = React.lazy(() => import('./views/Models/Admin/Appointments/AppAppointments'))
+const AdminAppCustomers = React.lazy(() => import('./views/Models/Admin/Customers/AppCustomers'))
+const AdminAppDashboard = React.lazy(() => import('./views/Models/Admin/Dashboard/AppDashboard'))
+const AdminAppEmployees = React.lazy(() => import('./views/Models/Admin/Employees/AppEmployees'))
+const AdminAppMessaging = React.lazy(() => import('./views/Models/Admin/Messaging/AppMessaging'))
+const AdminAppReports = React.lazy(() => import('./views/Models/Admin/Reports/AppReports'))
+const AdminAppServices = React.lazy(() => import('./views/Models/Admin/Services/AppServices'))
+const AdminAppSettings = React.lazy(() => import('./views/Models/Admin/Settings/AppSettings'))
+const AdminAppSupport = React.lazy(() => import('./views/Models/Admin/Support/AppSupport'))
+
+
+
+// Models / Customer 
+const CustomerAppAppointments = React.lazy(() => import('./views/Models/Customer/Appointments/AppAppointments'))
+const CustomerAppDashboard = React.lazy(() => import('./views/Models/Customer/Dashboard/AppDashboard'))
+const CustomerAppProfile = React.lazy(() => import('./views/Models/Customer/Profile/AppProfile'))
+const CustomerAppSettings = React.lazy(() => import('./views/Models/Customer/Settings/AppSettings'))
+const CustomerAppSupport = React.lazy(() => import('./views/Models/Customer/Support/AppSupport'))
+
+
+
+// Models / Employee
+const EmployeeAppAppointments = React.lazy(() => import('./views/Models/Employee/Appointments/AppAppointments'))
+const EmployeeAppDashboard = React.lazy(() => import('./views/Models/Employee/Dashboard/AppDashboard'))
+const EmployeeAppMessaging = React.lazy(() => import('./views/Models/Employee/Messaging/AppMessaging'))
+const EmployeeAppProfile = React.lazy(() => import('./views/Models/Employee/Profile/AppProfile'))
+const EmployeeAppSettings = React.lazy(() => import('./views/Models/Employee/Settings/AppSettings'))
+const EmployeeAppSupport = React.lazy(() => import('./views/Models/Employee/Support/AppSupport'))
+const EmployeeAppTasks = React.lazy(() => import('./views/Models/Employee/Tasks/AppTasks'))
+
+
 const routes = [
   { path: '/', exact: true, name: 'Home' },
+
+  // Models /Admin
+  { path: '/Admin/Appointments', name: 'AdminAppAppointments', element: AdminAppAppointments },
+  { path: '/Admin/Customers', name: 'AdminAppCustomers', element: AdminAppCustomers },
+  { path: '/Admin/Dashboard', name: 'AdminAppDashboard', element: AdminAppDashboard },
+  { path: '/Admin/Employees', name: 'AdminAppEmployees', element: AdminAppEmployees },
+  { path: '/Admin/Messaging', name: 'AdminAppMessaging', element: AdminAppMessaging },
+  { path: '/Admin/Reports', name: 'AdminAppReports', element: AdminAppReports },
+  { path: '/Admin/Services', name: 'AdminAppServices', element: AdminAppServices },
+  { path: '/Admin/Settings', name: 'AdminAppSettings', element: AdminAppSettings },
+  { path: '/Admin/Support', name: 'AdminAppSupport', element: AdminAppSupport },
+
+  // Models /Customer 
+  { path: '/Customer/Appointments', name: 'CustomerAppAppointments', element: CustomerAppAppointments },
+  { path: '/Customer/Dashboard', name: 'CustomerAppDashboard', element: CustomerAppDashboard },
+  { path: '/Customer/Profile', name: 'CustomerAppProfile', element: CustomerAppProfile },
+  { path: '/Customer/Settings', name: 'CustomerAppSettings', element: CustomerAppSettings },
+  { path: '/Customer/Support', name: 'CustomerAppSupport', element: CustomerAppSupport },
+
+  // Models /Employee
+  { path: '/Employee/Appointments', name: 'EmployeeAppAppointments', element: EmployeeAppAppointments },
+  { path: '/Employee/Dashboard', name: 'EmployeeAppDashboard', element: EmployeeAppDashboard },
+  { path: '/Employee/Messaging', name: 'EmployeeAppMessaging', element: EmployeeAppMessaging },
+  { path: '/Employee/Profile', name: 'EmployeeAppProfile', element: EmployeeAppProfile },
+  { path: '/Employee/Settings', name: 'EmployeeAppSettings', element: EmployeeAppSettings },
+  { path: '/Employee/Support', name: 'EmployeeAppSupport', element: EmployeeAppSupport },
+  { path: '/Employee/Tasks', name: 'EmployeeAppTasks', element: EmployeeAppTasks },
+
+
   { path: '/dashboard', name: 'Dashboard', element: Dashboard },
   { path: '/appointments', name: 'Appointments', element: Appointments },
   { path: '/calendrier', name: 'Calendrier', element: Calendrier },
