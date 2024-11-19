@@ -114,11 +114,11 @@ const routes = [
   { path: '/Admin/Support', name: 'AdminAppSupport', element: AdminAppSupport },
 
   // Models /Customer 
-  { path: '/Customer/Appointments', name: 'CustomerAppAppointments', element: CustomerAppAppointments },
-  { path: '/Customer/Dashboard', name: 'CustomerAppDashboard', element: CustomerAppDashboard },
-  { path: '/Customer/Profile', name: 'CustomerAppProfile', element: CustomerAppProfile },
-  { path: '/Customer/Settings', name: 'CustomerAppSettings', element: CustomerAppSettings },
-  { path: '/Customer/Support', name: 'CustomerAppSupport', element: CustomerAppSupport },
+  { path: '/Customer/Appointments', name: 'Appointments', element: CustomerAppAppointments },
+  { path: '/Customer/Dashboard', name: 'Dashboard', element: CustomerAppDashboard },
+  { path: '/Customer/Profile', name: 'Profile', element: CustomerAppProfile },
+  { path: '/Customer/Settings', name: 'Settings', element: CustomerAppSettings },
+  { path: '/Customer/Support', name: 'Support', element: CustomerAppSupport },
 
   // Models /Employee
   { path: '/Employee/Appointments', name: 'EmployeeAppAppointments', element: EmployeeAppAppointments },

@@ -1,0 +1,257 @@
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #1e293b; /* Dark Background */
+    border-radius: 8px;
+    color: #f8fafc; /* Light Text Color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle Shadow */
+  }
+  
+  /* Form Styling */
+  .appointment-form {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .appointment-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #38bdf8; /* Cyan Text Color */
+  }
+  
+  .appointment-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #cbd5e1; /* Soft Gray */
+  }
+  
+  .appointment-form input,
+  .appointment-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #94a3b8; /* Light Gray Border */
+    background-color: #f1f5f9; /* Light Input Background */
+    color: #1e293b; /* Dark Text Color */
+    font-size: 14px;
+  }
+  
+  .appointment-form input:focus,
+  .appointment-form select:focus {
+    outline: none;
+    border-color: #38bdf8; /* Cyan Border on Focus */
+    box-shadow: 0 0 4px #38bdf8;
+  }
+  
+  .appointment-form button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    color: #fff;
+  }
+  
+  .appointment-form button[type="submit"] {
+    background-color: #38bdf8; /* Cyan Button */
+  }
+  
+  .appointment-form button[type="submit"]:hover {
+    background-color: #0284c7; /* Darker Cyan on Hover */
+  }
+  
+  .appointment-form button[type="button"] {
+    background-color: #f87171; /* Red Button */
+  }
+  
+  .appointment-form button[type="button"]:hover {
+    background-color: #dc2626; /* Darker Red on Hover */
+  }
+  
+  /* Image Styling */
+  .form-image img {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+  }
+/* Appointment List Container */
+.appointment-list-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #1e293b; /* Dark Background */
+    border-radius: 8px;
+    color: #f8fafc; /* Light Text Color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle Shadow */
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Title Styling */
+  .appointment-list-title {
+    font-size: 24px;
+    color: #38bdf8; /* Cyan Color */
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Create Appointment Button */
+  .create-appointment-btn {
+    display: block;
+    width: fit-content;
+    margin: 0 auto 20px auto;
+    padding: 10px 20px;
+    background-color: #38bdf8; /* Cyan Background */
+    color: #fff; /* White Text */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .create-appointment-btn:hover {
+    background-color: #0284c7; /* Darker Cyan on Hover */
+  }
+  
+  /* Appointment List */
+  .appointment-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .no-appointments-text {
+    text-align: center;
+    color: #cbd5e1; /* Soft Gray */
+    font-size: 16px;
+    font-style: italic;
+  }
+  
+  /* Appointment Items */
+  .appointment-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #334155; /* Darker Background for Items */
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    color: #f8fafc; /* Light Text Color */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .appointment-item:last-child {
+    margin-bottom: 0;
+  }
+  
+  .appointment-item:hover {
+    transform: translateY(-3px); /* Slight lift effect on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+  }
+  
+  /* Appointment Info */
+  .appointment-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .appointment-service {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .appointment-date {
+    font-size: 14px;
+    color: #cbd5e1; /* Soft Gray */
+  }
+  
+  /* View Details Button */
+  .view-details-btn {
+    padding: 8px 12px;
+    background-color: #38bdf8; /* Cyan Background */
+    color: #fff; /* White Text */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .view-details-btn:hover {
+    background-color: #0284c7; /* Darker Cyan on Hover */
+  }
+  
+  /* Details Container */
+.details-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #1e293b; /* Dark Background */
+    border-radius: 8px;
+    color: #f8fafc; /* Light Text Color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle Shadow */
+    font-family: Arial, sans-serif;
+    text-align: left;
+  }
+  
+  /* Title Styling */
+  .details-title {
+    font-size: 24px;
+    color: #38bdf8; /* Cyan Text Color */
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Content Styling */
+  .details-content p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    color: #cbd5e1; /* Soft Gray Text Color */
+  }
+  
+  .details-content p strong {
+    color: #f8fafc; /* White for Labels */
+  }
+  
+  /* Button Container */
+  .details-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  /* Buttons */
+  .edit-btn, .back-btn {
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .edit-btn {
+    background-color: #38bdf8; /* Cyan Background */
+  }
+  
+  .edit-btn:hover {
+    background-color: #0284c7; /* Darker Cyan */
+  }
+  
+  .back-btn {
+    background-color: #f87171; /* Red Background */
+  }
+  
+  .back-btn:hover {
+    background-color: #dc2626; /* Darker Red */
+  }
+  

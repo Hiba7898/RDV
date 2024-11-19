@@ -9,26 +9,24 @@ import {
   CFormText,
   CCol,
   CRow
-} from '@coreui/react'; 
-import logo from '../../../assets/brand/hiyainc_logo.jpg';
+} from '@coreui/react';
+import logo from '../../../assets/brand/hiyainc_logo.jpg'
 //./assets/brand/
 const Profile = () => {
-  const [email, setEmail] = useState('user@example.com');
-  const [password, setPassword] = useState('');
+  const [email, setEmail] = useState('user@example.com')
+  const [password, setPassword] = useState('')
 
-  const handleEmailChange = (e) => setEmail(e.target.value);
-  const handlePasswordChange = (e) => setPassword(e.target.value);
+  const handleEmailChange = (e) => setEmail(e.target.value)
+  const handlePasswordChange = (e) => setPassword(e.target.value)
 
   const handleSaveChanges = () => {
-    alert(' Information updated successfully  ');
-  };
+    alert(' Information updated successfully  ')
+  }
 
 
   return (
     <CCard>
-      <CCardHeader>
-       Profile
-      </CCardHeader>
+      <CCardHeader> Profile </CCardHeader>
       <CCardBody>
         <CRow>
           <CCol md="3">
@@ -51,7 +49,7 @@ const Profile = () => {
                 <CFormText> Enter a new password if you want to change it. </CFormText>
               </div>
               <CButton color="primary" onClick={handleSaveChanges}>
-              Save Changes
+                Save Changes
               </CButton>
             </CForm>
           </CCol>
