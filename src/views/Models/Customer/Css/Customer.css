@@ -10,7 +10,14 @@
     color: #f8fafc; /* Light Text Color */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle Shadow */
   }
+
   
+  .app-title {
+    text-align: center;
+    font-size: 28px;
+    color: #3b82f6; /* Bright Blue */
+    margin-bottom: 20px;
+  }
   /* Form Styling */
   .appointment-form {
     flex: 1;
@@ -254,4 +261,69 @@
   .back-btn:hover {
     background-color: #dc2626; /* Darker Red */
   }
-  
+
+/* 
+  /*css calendar */
+  /* FullCalendar container */
+.fc {
+  font-family: Arial, sans-serif;
+  max-width: 900px; /* Set max-width for the calendar */
+  width: 100%; /* Allow responsiveness */
+  margin: 0 auto; /* Center the calendar horizontally */
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+/* Header styling */
+.fc-toolbar {
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 10px 10px 0 0;
+  text-align: center;
+}
+
+.fc-toolbar h2 {
+  font-size: 1.5em;
+  color: #333;
+}
+
+.fc-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 0.9em;
+  cursor: pointer;
+}
+
+.fc-button:hover {
+  background-color: #0056b3;
+}
+
+/* Day grid styling */
+.fc-daygrid {
+  width: 100%;
+}
+
+.fc-daygrid-day {
+  border: 1px solid #ddd;
+}
+
+.fc-daygrid-day-number {
+  font-size: 0.9em;
+  color: #666;
+  padding: 5px;
+}
+
+/* Maintain container alignment within CoreUI Card */
+.ccard-body {
+  padding: 20px; /* Add padding for spacing */
+  display: flex;
+  justify-content: center; /* Center the calendar inside */
+  align-items: center;
+}
+

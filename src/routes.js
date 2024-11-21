@@ -69,6 +69,7 @@ const Calendrier = React.lazy(() => import('./views/Models/calendrier/Calendrier
 
 // Models / Admin
 const AdminAppAppointments = React.lazy(() => import('./views/Models/Admin/Appointments/AppAppointments'))
+
 const AdminAppCustomers = React.lazy(() => import('./views/Models/Admin/Customers/AppCustomers'))
 const AdminAppDashboard = React.lazy(() => import('./views/Models/Admin/Dashboard/AppDashboard'))
 const AdminAppEmployees = React.lazy(() => import('./views/Models/Admin/Employees/AppEmployees'))
