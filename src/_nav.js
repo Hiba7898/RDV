@@ -21,82 +21,82 @@ import { CNavGroup, CNavItem, CNavTitle } from '@coreui/react'
 
 const _nav = [
     //Dashboard / CNavItem
-  {
-    component: CNavItem,
-    name: 'Dashboard',
-    to: '/dashboard',
-    icon: <CIcon icon={cilSpeedometer} customClassName="nav-icon" />,
-    badge: {
-      color: 'info',
-      text: 'NEW',
-    },
-  },
-    //Appointments / CNavItem
-  {
-    component: CNavItem,
-    name: 'Appointments',
-    to: '/appointments',
-    icon: <CIcon icon={cilList  } customClassName="nav-icon" />,
-    badge: {
-      color: 'info',
-      text: 'NEW',
-    },
-  },
-    //Calendrier / CNavItem
-  {
-    component: CNavItem,
-    name: 'Calendrier',
-    to: '/calendrier',
-    icon: <CIcon icon={cilCalendar} customClassName="nav-icon" />,
-    badge: {
-      color: 'info',
-      text: 'NEW',
-    },
-  },
+  // {
+  //   component: CNavItem,
+  //   name: 'Dashboard',
+  //   to: '/dashboard',
+  //   icon: <CIcon icon={cilSpeedometer} customClassName="nav-icon" />,
+  //   badge: {
+  //     color: 'info',
+  //     text: 'NEW',
+  //   },
+  // },
+  //   //Appointments / CNavItem
+  // {
+  //   component: CNavItem,
+  //   name: 'Appointments',
+  //   to: '/appointments',
+  //   icon: <CIcon icon={cilList  } customClassName="nav-icon" />,
+  //   badge: {
+  //     color: 'info',
+  //     text: 'NEW',
+  //   },
+  // },
+  //   //Calendrier / CNavItem
+  // {
+  //   component: CNavItem,
+  //   name: 'Calendrier',
+  //   to: '/calendrier',
+  //   icon: <CIcon icon={cilCalendar} customClassName="nav-icon" />,
+  //   badge: {
+  //     color: 'info',
+  //     text: 'NEW',
+  //   },
+  // },
     //Clients / CNavItem
-  {
-    component: CNavItem,
-    name: 'Clients',
-    to: '/clients',
-    icon: <CIcon icon={cilContact  } customClassName="nav-icon" />,
-    badge: {
-      color: 'info',
-      text: 'NEW',
-    },
-  },
+  // {
+  //   component: CNavItem,
+  //   name: 'Clients',
+  //   to: '/clients',
+  //   icon: <CIcon icon={cilContact  } customClassName="nav-icon" />,
+  //   badge: {
+  //     color: 'info',
+  //     text: 'NEW',
+  //   },
+  // },
     //Profile / CNavItem
-  {
-    component: CNavItem,
-    name: 'Profile',
-    to: '/profile',
-    icon: <CIcon icon={cilUserPlus  } customClassName="nav-icon" />,
-    badge: {
-      color: 'info',
-      text: 'NEW',
-    },
-  },
+  // {
+  //   component: CNavItem,
+  //   name: 'Profile',
+  //   to: '/profile',
+  //   icon: <CIcon icon={cilUserPlus  } customClassName="nav-icon" />,
+  //   badge: {
+  //     color: 'info',
+  //     text: 'NEW',
+  //   },
+  // },
     //Settings / CNavItem
-  {
-    component: CNavItem,
-    name: 'Settings',
-    to: '/settings',
-    icon: <CIcon icon={cilSettings } customClassName="nav-icon" />,
-    badge: {
-      color: 'info',
-      text: 'NEW',
-    },
-  },
-    //Support / CNavItem
-  {
-    component: CNavItem,
-    name: 'Support',
-    to: '/support',
-    icon: <CIcon icon={cilAddressBook  } customClassName="nav-icon" />,
-    badge: {
-      color: 'info',
-      text: 'NEW',
-    },
-  },
+  // {
+  //   component: CNavItem,
+  //   name: 'Settings',
+  //   to: '/settings',
+  //   icon: <CIcon icon={cilSettings } customClassName="nav-icon" />,
+  //   badge: {
+  //     color: 'info',
+  //     text: 'NEW',
+  //   },
+  // },
+  //   //Support / CNavItem
+  // {
+  //   component: CNavItem,
+  //   name: 'Support',
+  //   to: '/support',
+  //   icon: <CIcon icon={cilAddressBook  } customClassName="nav-icon" />,
+  //   badge: {
+  //     color: 'info',
+  //     text: 'NEW',
+  //   },
+  // },
 
 
 

@@ -60,12 +60,12 @@ const Widgets = React.lazy(() => import('./views/widgets/Widgets'))
 
 // Models
 const Dashboard = React.lazy(() => import('./views/Models/dashboard/Dashboard'))
-const Appointments = React.lazy(() => import('./views/Models/appointments/Appointments'))
-const Clients = React.lazy(() => import('./views/Models/clients/Clients'))
+// const Appointments = React.lazy(() => import('./views/Models/appointments/Appointments'))
+// const Clients = React.lazy(() => import('./views/Models/clients/Clients'))
 const Profile = React.lazy(() => import('./views/Models/profile/Profile'))
-const Settings = React.lazy(() => import('./views/Models/settings/Settings'))
-const Support = React.lazy(() => import('./views/Models/support/Support'))
-const Calendrier = React.lazy(() => import('./views/Models/calendrier/Calendrier'))
+// const Settings = React.lazy(() => import('./views/Models/settings/Settings'))
+// const Support = React.lazy(() => import('./views/Models/support/Support'))
+// const Calendrier = React.lazy(() => import('./views/Models/calendrier/Calendrier'))
 
 // Models / Admin
 const AdminAppAppointments = React.lazy(() => import('./views/Models/Admin/Appointments/AppAppointments'))
@@ -131,13 +131,13 @@ const routes = [
   { path: '/Employee/Tasks', name: 'EmployeeAppTasks', element: EmployeeAppTasks },
 
 
-  { path: '/dashboard', name: 'Dashboard', element: Dashboard },
-  { path: '/appointments', name: 'Appointments', element: Appointments },
-  { path: '/calendrier', name: 'Calendrier', element: Calendrier },
-  { path: '/clients', name: 'Clients', element: Clients },
-  { path: '/profile', name: 'Profile', element: Profile },
-  { path: '/settings', name: 'Settings', element: Settings },
-  { path: '/support', name: 'Support', element: Support },
+  // { path: '/dashboard', name: 'Dashboard', element: Dashboard },
+  // { path: '/appointments', name: 'Appointments', element: Appointments },
+  // { path: '/calendrier', name: 'Calendrier', element: Calendrier },
+  // { path: '/clients', name: 'Clients', element: Clients },
+  // { path: '/profile', name: 'Profile', element: Profile },
+  // { path: '/settings', name: 'Settings', element: Settings },
+  // { path: '/support', name: 'Support', element: Support },
 
   { path: '/theme', name: 'Theme', element: Colors, exact: true },
   { path: '/theme/colors', name: 'Colors', element: Colors },
